@@ -8,7 +8,7 @@ inherit fortran-2 toolchain-funcs autotools flag-o-matic
 
 DESCRIPTION="General purpose library and format for storing scientific data"
 HOMEPAGE="http://www.hdfgroup.org/hdf4.html"
-SRC_URI="https://github.com/HDFGroup/hdf4/tarball/8f4844800098b9360787f30fd277775782fd7160 -> hdf4-4.3.0-8f48448.tar.gz"
+SRC_URI="https://github.com/HDFGroup/hdf4/tarball/76795ec6d8b10b80dccd3d5192d0f9224ddda7d0 -> hdf4-4.3.1-76795ec.tar.gz"
 
 SLOT="0"
 LICENSE="NCSA-HDF"
@@ -24,7 +24,7 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	test? ( virtual/szip )"
 
-S="${WORKDIR}/HDFGroup-hdf4-8f48448"
+S="${WORKDIR}/HDFGroup-hdf4-76795ec"
 
 src_prepare() {
 	default

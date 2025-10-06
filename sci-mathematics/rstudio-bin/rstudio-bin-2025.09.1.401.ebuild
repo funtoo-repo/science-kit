@@ -14,7 +14,7 @@ DESCRIPTION="IDE for the R language"
 HOMEPAGE="
 	http://www.rstudio.org
 	https://github.com/rstudio/rstudio/"
-SRC_URI="https://download1.rstudio.org/electron/jammy/amd64/rstudio-2025.09.0-387-amd64-debian.tar.gz -> rstudio-2025.09.0.387_x86_64.pkg.tar.gz"
+SRC_URI="https://download1.rstudio.org/electron/jammy/amd64/rstudio-2025.09.1-401-amd64-debian.tar.gz -> rstudio-2025.09.1.401_x86_64.pkg.tar.gz"
 
 LICENSE="AGPL-3"
 SLOT="0"

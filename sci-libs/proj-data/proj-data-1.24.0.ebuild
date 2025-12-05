@@ -6,7 +6,7 @@ inherit cmake
 
 DESCRIPTION="Repository for proj datum grids (for use by PROJ 7 or later)"
 HOMEPAGE="https://proj.org/"
-SRC_URI="https://github.com/OSGeo/PROJ-data/tarball/a186f7c5f095412a9c5b3a4d967e9fb8ed7c6d46 -> PROJ-data-1.23.0-a186f7c.tar.gz"
+SRC_URI="https://github.com/OSGeo/PROJ-data/tarball/59fb3aecc47da1d3410f417bf61256a8aa915323 -> PROJ-data-1.24.0-59fb3ae.tar.gz"
 
 LICENSE="MIT"
 # Changes on every major release
